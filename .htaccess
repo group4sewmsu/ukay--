@@ -1,8 +1,0 @@
-<IfModule mod_alias.c>
-	RedirectMatch 301 ^/$ https://localhost/ukay++/public
-</IfModule>
-
-# Make sure .env files not browseable if in a sub-directory.
-<FilesMatch "\.env$">
-	Deny from all
-</FilesMatch>
